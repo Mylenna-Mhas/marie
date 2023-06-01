@@ -1,0 +1,47 @@
+*{
+margin: 0 ;
+padding: 0;
+}
+section{
+margin: 4rem;
+display: flex;
+flex-direction: row;
+height: 28rem;
+}
+.sante{
+flex: 1;
+background-color: cyan;
+padding: 30px;
+}
+.sante img{
+width: 90%;
+margin: 20px;
+}
+.texte{
+flex: 1;
+padding: 20px;
+}
+.texte h2{
+margin-bottom: 10px;
+text-transform: capitalize;
+}
+.texte p{
+margin-top: 2em;
+margin-bottom: 10px;
+}
+.texte p a {
+text-decoration: none;
+}
+@media screen and (max-width:1200px) {
+    section {
+       flex-direction: column;
+    }
+}
+footer{
+background-color: black;
+text-align: center;
+padding: 20px;
+}
+footer p{
+color: white;
+}
